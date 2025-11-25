@@ -1,0 +1,205 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* HALAMAN DETAIL */
+.kotak-detail {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pilihan-variasi button {
+    transition: all 0.2s;
+    border: 2px solid #ccc;
+}
+
+/* icon */
+.custom-icon {
+    width: 34px;
+    height: 34px;
+}
+
+/* NAVBAR*/
+.gradasi-bilah-navigasi {
+    background: linear-gradient(to right, #715A5A, #BB6653);
+}
+
+.gradasi-bilah-navigasi .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.gradasi-bilah-navigasi .nav-link:hover {
+    color: #FFD93D;
+}
+
+/* jika halaman aktif*/
+.gradasi-bilah-navigasi .nav-link.active {
+    background-color: #884A39;
+    color: #FFCE45 !important;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0 0 3px rgb(241, 180, 10);
+}
+
+/* merek */
+.navbar-brand {
+    font-size: 1.75rem;
+    letter-spacing: 2px;
+    color: #fac126 !important;
+    text-shadow: 0 0 5px rgb(241, 187, 10);
+}
+
+
+
+/* ROMBOL BELANJA barang baru */
+.btn-info {
+    background-color: #E0AB5B;
+    border-color: #E0AB5B;
+    color: #000 !important;
+    transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #A65E09;
+    border-color: #A65E09;
+}
+
+/* KASTEM HARGA */
+.text-danger {
+    color: #FF9D00 !important;
+    font-weight: 700;
+}
+
+footer {
+    background: linear-gradient(to right, #715A5A, #BB6653);
+}
+
+/* Gaya untuk Spanduk Utama (Beranda) */
+.spanduk-utama {
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.spanduk-utama {
+    background-image: url("../img/toko.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*  tinggi header */
+    min-height: 500px;
+}
+
+/* Testimoni */
+.item-testimoni {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Gaya Spanduk Kategori */
+.latar-kategori-urban {
+    background-color: #222222;
+    color: #fff;
+}
+
+.latar-kategori-perawatan {
+    background-color: #e6e6fa;
+    /* Lavender muda */
+}
+
+/* CARD */
+.kartu-produk-hover {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.kartu-produk-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 0 15px rgba(248, 232, 2, 0.3);
+    border-color: #FFCE45;
+}
+
+/* ---  Khusus Halaman DISKON --- */
+.spanduk-diskon {
+    background-image: url("../img/hero-diskon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: white;
+    padding: 60px 0;
+}
+
+.kotak-promo {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    border: 3px solid #FFCE45;
+    box-shadow: 0 0 15px rgba(255, 217, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.kotak-promo:hover {
+    transform: translateY(-5px);
+}
+
+.koleksi-pakaian-diskon {
+    background-image: url("../img/hero-diskon-pakaian.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: white;
+    padding: 60px 0;
+
+}
+
+
+.koleksi-perawatan-diskon {
+    background-image: url("../img/hero-diskon-perawatan.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: white;
+    padding: 60px 0;
+
+}
+
+/* TENTANG KAMI */
+.kotak-nilai {
+    border-left: 5px solid #F6B61E;
+    padding-left: 15px;
+}
+
+.spanduk-tentang {
+    background-image: url("../img/hero-tentang-kami.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    color: white;
+    padding: 60px 0;
+    border-bottom: 5px solid #F6B61E;
+}
+
+.gambar-tim-vertikal {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Menyesuaikan ukuran foto pengembang (100x100px) */
+.foto-pengembang-kecil {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.custom-icon {
+    width: 50px;
+    height: 50px;
+}
