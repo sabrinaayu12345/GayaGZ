@@ -92,7 +92,6 @@ footer {
     background-image: url("../img/toko.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /*  tinggi header */
     min-height: 500px;
 }
 
@@ -159,7 +158,6 @@ footer {
     padding: 60px 0;
 
 }
-
 
 .koleksi-perawatan-diskon {
     background-image: url("../img/hero-diskon-perawatan.png");
